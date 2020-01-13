@@ -15,8 +15,7 @@ body {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 50px;
-  margin-bottom: 25px;
-  min-width: 1024px; }
+  max-height: 60px; }
 
 .logo {
   margin: 10px 0; }
@@ -79,26 +78,22 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #fff;
-  padding: 0 16px 23px; }
+  background: #fff; }
 
-.line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: nowrap;
-      flex-flow: nowrap;
+.main {
+  display: grid;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #fff;
-  min-width: 1024px; }
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 50px 48px;
+  padding: 50px 40px 78px; }
 
 .card {
-  width: 200px;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
   padding: 30px 14px 14px;
@@ -106,7 +101,8 @@ body {
           box-sizing: border-box;
   font-size: 11px;
   line-height: 13px;
-  margin: 25px 24px; }
+  width: 200px;
+  height: 403px; }
 
 .card__raiting-container {
   display: -webkit-box;
