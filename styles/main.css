@@ -78,7 +78,7 @@ body {
   background: #fff;
   padding: 0 0 53px; }
 
-.horizontal-block {
+.card-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
